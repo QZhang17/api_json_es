@@ -27,6 +27,22 @@ Run notebook:
 ```
 jupyter notebook
 ```
+### Run
+
+Run elastic search:
+```
+elasticsearch
+```
+
+Load data into elastic search
+```
+python3 index_json_file.py
+```
+
+Spin up Flask API:
+```
+python3 api_json.py
+```
 
 ### Example Queries
 
